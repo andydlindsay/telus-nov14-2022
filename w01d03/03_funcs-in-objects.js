@@ -2,7 +2,7 @@ const sayHello = function() {
   console.log('hello there');
 };
 
-// return;/
+// return;
 
 // console.log('did we reach this line?');
 
@@ -18,13 +18,14 @@ let studentOne = {
   },
   bff: {
     name: 'Bob',
-    sayMyFirstName: function(lastName) {
-      console.log(`my first name is ${lastName}`);
+    sayMyFirstName: function() {
+      console.log(`my first name is ${this.name}`);
     }
   }
 };
 
-studentOne.bff.sayMyFirstName(studentOne.lastName);
+// studentOne.bff.sayMyFirstName(studentOne.lastName);
+studentOne.bff.sayMyFirstName();
 
 // const copy = studentOne;
 // studentOne = null;

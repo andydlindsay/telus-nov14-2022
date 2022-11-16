@@ -23,12 +23,8 @@ const studentOneKeysArr = Object.keys(studentOne);
 
 for (const key of studentOneKeysArr) {
   console.log(key);
-  studentOne[key]
+  console.log(studentOne[key]);
 }
-
 
 // studentOne.friends.push('bob');
 // console.log(studentOne.friends);
-
-
-
