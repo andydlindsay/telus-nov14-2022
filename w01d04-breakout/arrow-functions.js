@@ -9,7 +9,7 @@ const sayHello1 = function(name) {
   return `hello there ${name}`;
 };
 
-const sayHello2 = name => `hello there ${name}, ${this}`;
+const sayHello2 = name => `hello there ${name}`;
 
 const returnVal = sayHello2('alice');
 console.log('returnVal', returnVal);
