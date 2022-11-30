@@ -2,7 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const cookieParser = require('cookie-parser');
 const languages = require('./languages.json');
-// console.log(langugaes);
+// console.log(languages);
 
 const port = 3001;
 const app = express();
