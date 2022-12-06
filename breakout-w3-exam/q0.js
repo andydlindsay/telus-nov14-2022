@@ -20,7 +20,28 @@ Examples
 */
 
 const objectToArray = function(obj) {
+  // return Object.entries(obj);
 
+  // create the output array
+  const output = [];
+
+  // loop through the provided object
+  for (const key in obj) {
+    // pull off the key and value from the object
+    const value = obj[key];
+
+    // create a subarray with [key, value]
+    const subarray = [key, value];
+    // console.log(subarray);
+
+    // output.push([key, obj[key]])
+
+    // add the subarray to the output array
+    output.push(subarray);
+  }
+
+  // return the output array
+  return output;
 };
 
 // Don't change below:

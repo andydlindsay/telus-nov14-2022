@@ -23,7 +23,30 @@ Examples:
 */
 
 const deepArrayToObject = function(arr) {
+  // create an output object
+  const output = {};
 
+  // loop through the provided array
+  for (const subarray of arr) {
+    // console.log('subarray', subarray);
+    // pull off the key and value from the subarray
+    const key = subarray[0];
+    const value = subarray[1];
+
+    // check if the value is an array
+    if (Array.isArray(value)) {
+      // const returnVal = deepArrayToObject(value);
+      // output[key] = returnVal;
+
+      output[key] = deepArrayToObject(value);
+    } else {
+      // add they key/value pair to the output object
+      output[key] = value;
+    }
+  }
+
+  // return the output object
+  return output;
 };
 
 // Don't change below:

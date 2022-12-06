@@ -18,10 +18,35 @@ Examples:
   => { a: 1, b: 2, c: 3 }
 - arrayToObject([['name', 'Dave'], ['role', 'Instructor'], ['yearsOfExperience', 10]])
   => {name: 'Dave', role: 'Instructor', yearsOfExperience: 10}
+
+  [
+    ['a', 1],
+    ['b', 2], 
+    ['c', 3]
+  ]
 */
 
 const arrayToObject = function(arr) {
+  // return Object.fromEntries(arr);
 
+  // create an output object
+  const output = {};
+
+  // loop through the provided array
+  for (const subarray of arr) {
+    // console.log('subarray', subarray);
+    // pull off the key and value from the subarray
+    const key = subarray[0];
+    const value = subarray[1];
+
+    // // const [key, value] = subarray;
+
+    // // add they key/value pair to the output object
+    output[key] = value;
+  }
+
+  // return the output object
+  return output;
 };
 
 // Don't change below:
