@@ -1,0 +1,16 @@
+.character {
+  border: 2px solid firebrick;
+  color: magenta;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.character > header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.identification {
+  color: goldenrod;
+}
