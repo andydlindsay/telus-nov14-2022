@@ -4,3 +4,4 @@
 * [BREAKOUT - Callbacks and Arrow Functions](/w01d04-breakout)
 * [W03D03 - HTTP Cookies & User Authentication](/w03d03)
 * [BREAKOUT - Week 3 Exam Review](/breakout-w3-exam)
+* [W04D03 - AJAX](/w04d03)
