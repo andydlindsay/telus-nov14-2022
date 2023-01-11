@@ -1,9 +1,7 @@
 import {useState} from 'react';
 
 const Pizza = () => {
-  // if (true) {
-    const [newTopping, setNewTopping] = useState('');
-  // }
+  const [newTopping, setNewTopping] = useState('');
 
   // const [toppings, setToppings] = useState([]);
   // const [crust, setCrust] = useState('stuffed');
