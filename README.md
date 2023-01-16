@@ -7,3 +7,4 @@
 * [W04D03 - AJAX](/w04d03)
 * [W05D05 - Mid-term Project Kickoff](/w05d05)
 * [W07D03 - Immutable Update Patterns](/w07d03)
+* [W08D01 - Bootcamp Review](/w08d01)
