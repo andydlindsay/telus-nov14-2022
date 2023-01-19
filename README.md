@@ -8,3 +8,4 @@
 * [W05D05 - Mid-term Project Kickoff](/w05d05)
 * [W07D03 - Immutable Update Patterns](/w07d03)
 * [W08D01 - Bootcamp Review](/w08d01)
+* [W08D05 - Intro to Ruby](/w08d05)
