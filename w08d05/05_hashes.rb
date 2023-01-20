@@ -26,5 +26,3 @@ my_user = {
 }
 
 puts my_user
-
-

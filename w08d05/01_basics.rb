@@ -22,7 +22,6 @@ comment
 
 # puts USERNAME
 
-
 first_name = 'John'
 last_name = "Stamos"
 
