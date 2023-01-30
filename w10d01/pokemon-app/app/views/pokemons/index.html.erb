@@ -1,0 +1,8 @@
+<h1>All the pokemons!!!</h1>
+
+<% @pokemons.each do |pokemon| %>
+  <div class="pokemon">
+    <h2>Name: <%= pokemon.name %></h2>
+    <%= link_to "See the locations", pokemon_locations_path(pokemon) %>
+  </div>
+<% end %>
